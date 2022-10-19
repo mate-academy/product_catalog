@@ -47,18 +47,15 @@ Implement the catalog with a shopping cart and favorites page according to one o
 
 ## Data
 
-1. You can load:
-    - [all products](https://mate-academy.github.io/react_phone-catalog/api/products.json)
-    - [product details](https://mate-academy.github.io/react_phone-catalog/api/products/motorola-xoom.json)
-      (use actual `productId` as a last part of the URL before `.json`).
-1. Each product has a:
+1. You have `phones.json` and `phones/:phoneId.json` files in the `api` folder.
+1. Images are inside `img/phones` folder grouped by phone models and colors.
+1. Each product has:
     - `id` is required to fetch product details;
     - `name` with a product name;
-    - `imageUrl` with a link to the first image relative to a `public` folder;
-    - `type` that can be either `phone`, `tablet` or `accessory`;
-    - `price` is given before `discount`;
-    - `discount` is give in percents;
-    - `age` is used to sort by `Newest`;
+    - `image` with a link to the first image relative to a `public` folder;
+    - `price` and `fullPrice` to show the discount;
+    - `year` is used to sort by `Newest`;
+    - `capacity` and `color` that can be choosen on product details page.
 
 ## App
 
