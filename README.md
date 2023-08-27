@@ -43,18 +43,19 @@ Implement the catalog with a shopping cart and favorites page according to one o
       </details>
       
 1. Connect a repo to a folder with your React project (see the instructions on Github);
-1. Setup deployment to Github Pages as described in the [React Deployment lesson](https://mate.academy/learn/react/deployment#/video)
-    - (*) if you want to deploy your Express API to Heroku follow [this video](https://www.youtube.com/watch?v=HDYV4fYOeYY)
-1. Setup Eslint as described [here](https://mate.academy/learn/nodejs/dev-environment-nodejs#/video/2300).
-    - you may also want to setup Prettier, Husky, and Lint Staged (see the next videos in the lesson).
-1. The `main` branch is a base for your feature PullRequests.
-1. Merge PRs to `main` branch on github.
+1. Setup deployment to Github Pages as described [here](https://create-react-app.dev/docs/deployment/#github-pages)
+1. To deploy the API use [Render.com](https://dashboard.render.com/select-repo?type=web)
+   - You can also deploy a [PostreSQL DB](https://dashboard.render.com/new/database)
+1. Setup Eslint as described [here](https://mate.academy/learn/nodejs/dev-environment-nodejs).
+    - you may also want to setup Prettier, Husky, and Lint Staged
+1. The `master` (or `main`) branch is a base for your feature PullRequests.
+1. PRs should be merged there after review
 
 ## How to develop a feature
 
-1. `Pull` the latest `main`.
+1. `Pull` the latest `master`.
 1. Create a `your-feature-name` branch and `push` it to Github.
-1. Open a Pull Request (`PR`) from your branch to the `main`.
+1. Open a Pull Request (`PR`) from your branch to the `master`.
 1. Write your code, save it and push it to Github.
 1. Ask your teammate to review and approve if everything is OK.
 1. If some fixes are required discuss the comments and repeat steps 5-7.
@@ -192,4 +193,4 @@ Show `input:search` in the header when a page contains a `ProductList` to search
 1. Create Order details page at `/orders/:orderId` with ability to edit or cancel an order.
 1. Implement the login/register functionality and show the author's email of each order in the list.
 1. Restrict order editing only to its author.
-1. Deploy the App and the API with the DB to the [Heroku](https://heroku.com)
+1. Deploy the App and the API with the DB to [Render.com](https://render.com)
