@@ -8,6 +8,8 @@ Implement the catalog with a shopping cart and favorites page according to one o
 - [Rounded Orange](https://www.figma.com/file/7JTa0q8n3dTSAyMNaA0u8o/Phone-catalog-(V2)-Rounded-Style-3?node-id=0%3A1)
 
 ## If you work in a team
+<details>
+  <summary>Click here to see the details ></summary>
 
 1. Create an organization on Github
     ![Create an organization](./description/create-an-organization.png)
@@ -17,6 +19,7 @@ Implement the catalog with a shopping cart and favorites page according to one o
     ![Set up your team](./description/set-up-your-team.png)
 1. Add your teammates to the team by their usernames on Github
     ![Add your teammate](./description/add-your-teammate.png)
+</details>
 
 ## Instructions
 1. Create a new React project using [create-react-app](https://create-react-app.dev/docs/getting-started)
